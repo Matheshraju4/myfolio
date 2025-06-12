@@ -23,7 +23,7 @@ export const DATA = {
     "Docker",
     "AWS",
     "Git",
-    "REST APIs"
+    "REST APIs",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -81,8 +81,8 @@ export const DATA = {
       start: "September 2024",
       end: "February 2025",
       description:
-        "Developed and maintained web applications using React for the frontend and Express.js with MySQL for the backend. Created RESTful APIs for efficient data processing and implemented responsive UI components to enhance user experience."
-    }
+        "Developed and maintained web applications using React for the frontend and Express.js with MySQL for the backend. Created RESTful APIs for efficient data processing and implemented responsive UI components to enhance user experience.",
+    },
     // {
     //   company: "Shopify",
     //   badges: [],
@@ -182,10 +182,10 @@ export const DATA = {
     {
       title: "Phoenix Diagnostics Center",
       href: "https://phoenixdiagnosticscenter.com",
-      dates: "Feb 2024 - March 2024",
+      dates: "Feb 2025 - March 2025",
       active: true,
       description:
-        "Developed a comprehensive web application for a diagnostic center that digitized their report delivery system. Implemented secure patient authentication, automated report generation workflows, and digital delivery capabilities that reduced wait times by 50%. Created an admin dashboard for staff to manage appointments and reports efficiently.",
+        "A One Stop Solution for all your Diagnostic needs",
       technologies: [
         "Next.js",
         "Typescript",
@@ -202,9 +202,26 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video: "/video.mp4",
-    }
+      image: "/phoenix.png",
+      video: "",
+    },
+    {
+      title: "RefCodes",
+      href: "https://refcodes-pearl.vercel.app/",
+      dates: "June 2025 - July 2025",
+      active: true,
+      description: "One place where peoples can get Referral Codes",
+      technologies: ["Next.js", "Typescript", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://refcodes-pearl.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/refcodes.png",
+      video: "",
+    },
     // {
     //   title: "Magic UI",
     //   href: "https://magicui.design",
